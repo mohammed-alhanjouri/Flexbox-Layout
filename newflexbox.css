@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    row-gap: 30px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #4d4d4d;
+}
+.container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-side{
+    display: flex;  
+    flex-direction: column;
+    flex-basis: 65%;
+}
+.left-content{
+    width: 95%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.left-nav {
+    position: relative;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.left-nav-item1, .left-nav-item2, .left-nav-item3 {
+    height: 30px;
+    flex-basis: 15%;
+}
+.left-nav-item1 {
+    background-color: #4d4d4d;
+}
+.left-nav-item2, .left-nav-item3 {
+    background-color: #bebebe;
+}
+.fas.fa-arrow-right {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: 20px; 
+    color: #bebebe; 
+}
+.upper-left{
+    height: 100%;
+    background-color: #4d4d4d;
+}
+.lower-left{
+    width: 95%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.lower-left-items-list{  
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    background-color: #ffffff;
+}
+.lower-left-item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: #ffffff;
+}
+.big-item {
+    width: 100%;
+    height: 80%;
+    background-color: #bebebe;
+}
+.item-line{
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+}
+
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    /* row-gap: 25px; */
+}
+.right-content{
+    height: 337px; /* should be adjusted 337px */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.right-nav{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.right-nav-items{
+    flex-basis: 10%;
+    background-color: #bcbbbb;
+}
+/* there is a problem here */
+.upper-right{
+    width: 100%;
+    height: 100%;
+    background-color: #777676;
+}
+.up-lower-right{
+    width: 100%;
+    height: 40px;
+    background-color: #777676;
+    border: 1px solid black;
+}
+.lower-right{
+    display: flex;
+    flex-direction: column;
+    height: 300px; /* should be adjusted */
+}
+/* End of the problem */
+.lower-right-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.items-content {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    gap: 10px;
+}
+.lower-right-item{
+    width: 25%;
+    height: 100px;
+    background-color: #bebebe;
+}
+.lines{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.line{
+    width: 100%;
+    height: 12px;
+    background-color: #e0e0e0;
+}
+.lower-right-line{
+    width: 100%;
+    height: 12px;
+    background-color: #e0e0e0;
+}
+.divider{
+    margin: 15px 0 15px 0;
+    width: 100%;
+    height: 5px;
+    background-color: #777676;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #e6e6e6;
+}
